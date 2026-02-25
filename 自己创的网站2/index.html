@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MXY - 全栈开发工程师</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Noto+Sans+SC:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- 背景粒子系统 -->
+  <div class="particles" id="particles"></div>
+
+  <!-- 网格背景 -->
+  <div class="grid-overlay"></div>
+
+  <!-- 光效 -->
+  <div class="glow-orb glow-orb-1"></div>
+  <div class="glow-orb glow-orb-2"></div>
+  <div class="glow-orb glow-orb-3"></div>
+
+  <!-- 导航栏 -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <span class="logo-text">CZ</span>
+        <span class="logo-glow"></span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">首页</a></li>
+        <li><a href="#about" class="nav-link">关于</a></li>
+        <li><a href="#skills" class="nav-link">技能</a></li>
+        <li><a href="#projects" class="nav-link">项目</a></li>
+        <li><a href="#contact" class="nav-link">联系</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 首页区域 -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-icon">◆</span>
+        <span>全栈开发工程师</span>
+      </div>
+      <h1 class="hero-title">
+        <span class="title-line">MXY</span>
+        <span class="title-line title-line-2">构建未来</span>
+      </h1>
+      <p class="hero-subtitle">
+        <span class="typing-text"></span>
+        <span class="cursor">|</span>
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">
+          <span class="btn-content">查看项目</span>
+          <span class="btn-glitch"></span>
+        </a>
+        <a href="#contact" class="btn btn-secondary">
+          <span>联系我</span>
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number" data-target="5">0</span>
+          <span class="stat-label">年经验</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-target="50">0</span>
+          <span class="stat-label">项目数</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-target="30">0</span>
+          <span class="stat-label">客户数</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="code-block">
+        <div class="code-header">
+          <span class="dot red"></span>
+          name: <span class="string">"MXY"</span>,
+          <span class="dot green"></span>
+        </div>
+        <pre class="code-content"><code><span class="keyword">const</span> <span class="variable">developer</span> = {
+  name: <span class="string">"MXY"</span>,
+  role: <span class="string">"Full Stack Developer"</span>,
+  skills: [<span class="string">"React"</span>, <span class="string">"Node.js"</span>, <span class="string">"AI/ML"</span>],
+  passion: <span class="string">"Building the Future"</span>
+};</code></pre>
+      </div>
+      <div class="floating-elements">
+        <div class="floating-icon icon-1"><i class="fab fa-react"></i></div>
+        <div class="floating-icon icon-2"><i class="fab fa-js"></i></div>
+        <div class="floating-icon icon-3"><i class="fab fa-python"></i></div>
+        <div class="floating-icon icon-4"><i class="fas fa-database"></i></div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+      <span>向下滚动</span>
+    </div>
+  </section>
+
+  <!-- 关于区域 -->
+  <section id="about" class="about">
+    <div class="section-header">
+      <span class="section-number">01</span>
+      <h2 class="section-title">关于我</h2>
+      <p class="section-subtitle">热爱代码，创造无限可能</p>
+    </div>
+    <div class="about-content">
+      <div class="about-image">
+        <div class="image-container">
+          <div class="image-frame">
+            <div class="avatar-placeholder">
+              <span>CZ</span>
+            </div>
+            <div class="image-glow"></div>
+          </div>
+          <div class="image-particles"></div>
+        </div>
+      </div>
+      <div class="about-text">
+        <div class="about-card">
+          <div class="card-icon"><i class="fas fa-rocket"></i></div>
+          <h3>热情驱动</h3>
+          <p>对技术的热爱是我前进的动力，每一个项目都是一次创造艺术品的机会。</p>
+        </div>
+        <div class="about-card">
+          <div class="card-icon"><i class="fas fa-brain"></i></div>
+          <h3>创新思维</h3>
+          <p>不断探索新技术，用前沿技术解决复杂问题，打造卓越产品。</p>
+        </div>
+        <div class="about-card">
+          <div class="card-icon"><i class="fas fa-users"></i></div>
+          <h3>协作精神</h3>
+          <p>善于沟通协作，能够带领团队共同实现目标，创造价值。</p>
+        </div>
+        <div class="about-card">
+          <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
+          <h3>持续学习</h3>
+          <p>技术日新月异，保持学习热情，不断提升自我价值。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 技能区域 -->
+  <section id="skills" class="skills">
+    <div class="section-header">
+      <span class="section-number">02</span>
+      <h2 class="section-title">技术栈</h2>
+      <p class="section-subtitle">精通现代Web开发技术</p>
+    </div>
+    <div class="skills-container">
+      <div class="skill-category">
+        <div class="category-header">
+          <i class="fab fa-react"></i>
+          <span>前端技术</span>
+        </div>
+        <div class="skill-items">
+          <div class="skill-item" data-progress="95">
+            <div class="skill-info">
+              <span class="skill-name">React / Next.js</span>
+              <span class="skill-percent">95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress"></div>
+            </div>
+          </div>
+          <div class="skill-item" data-progress="90">
+            <div class="skill-info">
+              <span class="skill-name">Vue.js / Nuxt</span>
+              <span class="skill-percent">90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress"></div>
+            </div>
+          </div>
+          <div class="skill-item" data-progress="85">
+            <div class="skill-info">
+              <span class="skill-name">TypeScript</span>
+              <span class="skill-percent">85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress"></div>
+            </div>
+          </div>
+          <div class="skill-item" data-progress="80">
+            <div class="skill-info">
+              <span class="skill-name">Three.js / WebGL</span>
+              <span class="skill-percent">80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-category">
+        <div class="category-header">
+          <i class="fas fa-server"></i>
+          <span>后端技术</span>
+        </div>
+        <div class="skill-items">
+          <div class="skill-item" data-progress="92">
+            <div class="skill-info">
+              <span class="skill-name">Node.js / NestJS</span>
+              <span class="skill-percent">92%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress"></div>
+            </div>
+          </div>
+          <div class="skill-item" data-progress="88">
+            <div class="skill-info">
+              <span class="skill-name">Python / Django</span>
+              <span class="skill-percent">88%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress"></div>
+            </div>
+          </div>
+          <div class="skill-item" data-progress="85">
+            <div class="skill-info">
+              <span class="skill-name">Go / Gin</span>
+              <span class="skill-percent">85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress"></div>
+            </div>
+          </div>
+          <div class="skill-item" data-progress="82">
+            <div class="skill-info">
+              <span class="skill-name">PostgreSQL / MongoDB</span>
+              <span class="skill-percent">82%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-category">
+        <div class="category-header">
+          <i class="fas fa-cloud"></i>
+          <span>DevOps & Cloud</span>
+        </div>
+        <div class="skill-items">
+          <div class="skill-item" data-progress="88">
+            <div class="skill-info">
+              <span class="skill-name">Docker / Kubernetes</span>
+              <span class="skill-percent">88%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress"></div>
+            </div>
+          </div>
+          <div class="skill-item" data-progress="85">
+            <div class="skill-info">
+              <span class="skill-name">AWS / GCP</span>
+              <span class="skill-percent">85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress"></div>
+            </div>
+          </div>
+          <div class="skill-item" data-progress="80">
+            <div class="skill-info">
+              <span class="skill-name">CI/CD / GitHub Actions</span>
+              <span class="skill-percent">80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress"></div>
+            </div>
+          </div>
+          <div class="skill-item" data-progress="75">
+            <div class="skill-info">
+              <span class="skill-name">Terraform</span>
+              <span class="skill-percent">75%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-category">
+        <div class="category-header">
+          <i class="fas fa-microchip"></i>
+          <span>AI & 数据</span>
+        </div>
+        <div class="skill-items">
+          <div class="skill-item" data-progress="82">
+            <div class="skill-info">
+              <span class="skill-name">TensorFlow / PyTorch</span>
+              <span class="skill-percent">82%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress"></div>
+            </div>
+          </div>
+          <div class="skill-item" data-progress="78">
+            <div class="skill-info">
+              <span class="skill-name">LLM / OpenAI API</span>
+              <span class="skill-percent">78%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress"></div>
+            </div>
+          </div>
+          <div class="skill-item" data-progress="85">
+            <div class="skill-info">
+              <span class="skill-name">数据可视化</span>
+              <span class="skill-percent">85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress"></div>
+            </div>
+          </div>
+          <div class="skill-item" data-progress="80">
+            <div class="skill-info">
+              <span class="skill-name">GraphQL</span>
+              <span class="skill-percent">80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 项目区域 -->
+  <section id="projects" class="projects">
+    <div class="section-header">
+      <span class="section-number">03</span>
+      <h2 class="section-title">精选项目</h2>
+      <p class="section-subtitle">创新与技术完美结合</p>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card" data-category="frontend">
+        <div class="project-image">
+          <div class="project-placeholder">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+              <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>D3.js</span>
+          </div>
+          <h3 class="project-title">数据可视化平台</h3>
+          <p class="project-desc">企业级数据分析平台，支持实时数据流处理和交互式图表展示。</p>
+        </div>
+      </div>
+      <div class="project-card" data-category="backend">
+        <div class="project-image">
+          <div class="project-placeholder">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+              <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags">
+            <span>Node.js</span>
+            <span>MongoDB</span>
+            <span>Redis</span>
+          </div>
+          <h3 class="project-title">电商系统</h3>
+          <p class="project-desc">高并发电商平台，支持千万级用户，完整的订单和支付系统。</p>
+        </div>
+      </div>
+      <div class="project-card" data-category="ai">
+        <div class="project-image">
+          <div class="project-placeholder">
+            <i class="fas fa-robot"></i>
+          </div>
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+              <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags">
+            <span>Python</span>
+            <span>TensorFlow</span>
+            <span>FastAPI</span>
+          </div>
+          <h3 class="project-title">AI 智能助手</h3>
+          <p class="project-desc">基于大语言模型的智能助手，支持多轮对话和知识库检索。</p>
+        </div>
+      </div>
+      <div class="project-card" data-category="fullstack">
+        <div class="project-image">
+          <div class="project-placeholder">
+            <i class="fas fa-comments"></i>
+          </div>
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+              <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags">
+            <span>Vue</span>
+            <span>Node.js</span>
+            <span>WebSocket</span>
+          </div>
+          <h3 class="project-title">实时协作平台</h3>
+          <p class="project-desc">支持多人实时协作的在线文档系统，类似 Notion 的体验。</p>
+        </div>
+      </div>
+      <div class="project-card" data-category="frontend">
+        <div class="project-image">
+          <div class="project-placeholder">
+            <i class="fas fa-gamepad"></i>
+          </div>
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+              <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags">
+            <span>Three.js</span>
+            <span>WebGL</span>
+            <span>React</span>
+          </div>
+          <h3 class="project-title">3D 游戏引擎</h3>
+          <p class="project-desc">基于 WebGL 的轻量级 3D 游戏引擎，支持物理引擎和粒子系统。</p>
+        </div>
+      </div>
+      <div class="project-card" data-category="backend">
+        <div class="project-image">
+          <div class="project-placeholder">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+              <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags">
+            <span>Go</span>
+            <span>Kubernetes</span>
+            <span>gRPC</span>
+          </div>
+          <h3 class="project-title">微服务安全网关</h3>
+          <p class="project-desc">企业级 API 网关，支持认证、限流和灰度发布。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系区域 -->
+  <section id="contact" class="contact">
+    <div class="section-header">
+      <span class="section-number">04</span>
+      <h2 class="section-title">联系我</h2>
+      <p class="section-subtitle">期待与你合作</p>
+    </div>
+    <div class="contact-content">
+      <div class="contact-info">
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="contact-details">
+            <h3>邮箱</h3>
+            <p>chenzhaochen@example.com</p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fas fa-phone"></i>
+          </div>
+          <div class="contact-details">
+            <h3>电话</h3>
+            <p>+86 18718904835</p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="contact-details">
+            <h3>地点</h3>
+            <p>中国·广州</p>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-weixin"></i></a>
+        </div>
+      </div>
+      <div class="contact-form-container">
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <input type="text" id="name" name="name" required>
+            <label for="name">姓名</label>
+            <div class="input-highlight"></div>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" required>
+            <label for="email">邮箱</label>
+            <div class="input-highlight"></div>
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" name="subject" required>
+            <label for="subject">主题</label>
+            <div class="input-highlight"></div>
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <label for="message">消息</label>
+            <div class="input-highlight"></div>
+          </div>
+          <button type="submit" class="btn btn-submit">
+            <span class="btn-content">发送消息</span>
+            <span class="btn-glitch"></span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <span>CZ</span>
+      </div>
+      <p class="footer-text">© 2026 MXY. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">隐私政策</a>
+        <a href="#">使用条款</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 回到顶部按钮 -->
+  <div class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
